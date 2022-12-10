@@ -145,6 +145,7 @@ function genTargetNumbers(seedsNumbers) {
 
     for (let j = 0; j < random_seeds; j++) {
 
+      //extrae bola de tempSeeds
       const randomSeedIndex = Math.floor(random(0, tempSeeds.length));
       candidates.push(tempSeeds.splice(randomSeedIndex, 1)[0]);
     }
@@ -152,6 +153,7 @@ function genTargetNumbers(seedsNumbers) {
     let success = true;
     do {
 
+      //extrae bola de candidadates
       let a = candidates.splice(Math.floor(random(0, candidates.length)), 1)[0];
       let b = candidates.splice(Math.floor(random(0, candidates.length)), 1)[0];
       if (a === b) break
