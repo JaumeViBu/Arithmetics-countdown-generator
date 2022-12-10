@@ -1,6 +1,6 @@
-#Arithmetics countdown generator
+<h1>Arithmetics countdown generator</h1>
 
-###Little js script to generate a txt file containing mutliple blocks of seed numbers and target numbers, Countdown style
+<h3>Little js script to generate a txt file containing mutliple blocks of seed numbers and target numbers, Countdown style</h3>
 
 [x] Generate 2 lists of natural numbers, seed numbers and target numbers.
 
@@ -29,5 +29,5 @@ and, in the case the operation is a division, the result is an integer.
 
 ---
 
-[ ] Clean and refactor code
-..[ ] Refactor genTargetNumbers
+[ ] Clean and refactor code  
+[ ] Refactor genTargetNumbers
