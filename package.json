@@ -1,0 +1,13 @@
+{
+  "name": "node_arithmetics_countdown_01",
+  "version": "1.0.0",
+  "description": "Little js script to generate a txt file containing mutliple blocks of seed numbers and target numbers, Countdown style",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jaume Vidal",
+  "license": "ISC"
+}
