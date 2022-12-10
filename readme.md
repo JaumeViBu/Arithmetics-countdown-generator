@@ -1,4 +1,4 @@
-#Arithmetics countdown style exercises
+#Arithmetics countdown generator
 
 ###Little js script to generate a txt file containing mutliple blocks of seed numbers and target numbers, Countdown style
 
