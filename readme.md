@@ -20,6 +20,8 @@ I managed to clean most of the code base, and a big part of genTargetNumbers, bu
 
 ---
 
+Legend: [ ] TODO - [+] DOING - [x] DONE
+
 Sprint 1( ~3h):
 
 [x] Generate 2 lists of natural numbers, seed numbers and target numbers.
@@ -61,5 +63,13 @@ Sprint 3 (~3h):
 
 Sprint 4 (~3h):
 
+[+] Clean and refactor code  
+\_\_[+] Refactor genTargetNumbers
+
+---
+
+Sprint 5:
+
+[ ] Apply Gitflow (tag current version, add branches dev, feature and hot-fix)
 [+] Clean and refactor code  
 \_\_[+] Refactor genTargetNumbers
