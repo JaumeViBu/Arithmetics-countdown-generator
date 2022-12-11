@@ -2,6 +2,26 @@
 
 <h3>Little js script to generate a txt file containing mutliple blocks of seed numbers and target numbers, Countdown style</h3>
 
+This project started as a personal challenge in order to see how far I can go in a short dev spring of one evening. I also wanted to test how maintainable can I make the code, so I tried to go for short sprints spaced in time.
+
+The first day I managed to have all the functionalities I wanted for a proof of concept, and showed it in a web page printing a block pair of seed numbers and target numbers using p5.js.
+
+For the second sprint, a week later, I cleaned some of the code and added the functionality of clicking/pressing a key to give a new block, without having to refresh the page.
+
+For the third sprint, a month later, I decided to change the environment, from a web application to a node js one, beacause I didn't need a web page and also the way I had coded it, made it impossible to easiky copy the results to work on them.
+Also I can easily generate a txt file with a long list of block pairs.
+
+For the fourth sprint, 5 months later, I tried cleaning and refactoring the code, so it is easier to maintain.
+I tried separating the code base into a main script, the entry point, and a module.
+For the module I decided to use common js because I was using node, leave trying to use es6 import for future sprints.
+Sadly, the function genTargetNumbers I had was really poorly written. It was functional but almost unmaintanable.
+
+I managed to clean most of the code base, and a big part of genTargetNumbers, but there's still work for a future sprint.
+
+---
+
+Sprint 1( ~3h):
+
 [x] Generate 2 lists of natural numbers, seed numbers and target numbers.
 
 [x] Seed numbers list is composed of 8 numbers.
@@ -25,9 +45,21 @@ and, in the case the operation is a division, the result is an integer.
 
 ---
 
-[x] print a given pair of seeds list and targets list to txt file in the working dir
+Sprint 2 (~1h):
+
+[x] Reload new blocks without refreshing the page
 
 ---
 
-[ ] Clean and refactor code  
-[ ] Refactor genTargetNumbers
+Sprint 3 (~3h):
+
+[x] Migrating from p5 JS to node JS
+
+[x] Print a given pair of seeds list and targets list to txt file in the working dir
+
+---
+
+Sprint 4 (~3h):
+
+[+] Clean and refactor code  
+\_\_[+] Refactor genTargetNumbers
