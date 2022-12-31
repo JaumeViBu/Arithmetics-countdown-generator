@@ -20,7 +20,7 @@ let targetNumbers;
  **************************************************/
 
 /**
- 
+
 /**
  *
  * Generates a seed candidate between a and b, b not included
